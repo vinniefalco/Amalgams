@@ -13,6 +13,9 @@
     <Filter Include="JuceAmalgam Library Code %28Mac%29">
       <UniqueIdentifier>{7f343352-64c0-48eb-b54a-846a37bd5fbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="JuceAmalgam README">
+      <UniqueIdentifier>{464f8283-aaf9-4c9f-b88f-17014c8fd3ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\templates\juce_audio_basics_amalgam_template.cpp">
@@ -230,5 +233,9 @@
     <None Include="..\..\JuceAmalgam\include\juce_video_amalgam.mm">
       <Filter>JuceAmalgam Library Code %28Mac%29</Filter>
     </None>
+    <None Include="..\..\JuceAmalgam\README.md">
+      <Filter>JuceAmalgam README</Filter>
+    </None>
+    <None Include="..\..\README.md" />
   </ItemGroup>
 </Project>

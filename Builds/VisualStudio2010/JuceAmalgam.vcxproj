@@ -25,6 +25,8 @@
     <None Include="..\..\JuceAmalgam\include\juce_gui_extra_amalgam.mm" />
     <None Include="..\..\JuceAmalgam\include\juce_opengl_amalgam.mm" />
     <None Include="..\..\JuceAmalgam\include\juce_video_amalgam.mm" />
+    <None Include="..\..\JuceAmalgam\README.md" />
+    <None Include="..\..\README.md" />
     <None Include="CreateAmalgam.bat" />
   </ItemGroup>
   <ItemGroup>
