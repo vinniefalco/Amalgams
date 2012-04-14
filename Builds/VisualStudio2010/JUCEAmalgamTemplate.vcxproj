@@ -177,7 +177,7 @@
     </Link>
     <PreBuildEvent>
       <Command>$(ProjectDir)CreateAmalgam.bat</Command>
-      <Message>Amalgamate the templates.</Message>
+      <Message>Create the amalgamation from the templates.</Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -203,7 +203,7 @@
       <Command>$(ProjectDir)CreateAmalgam.bat</Command>
     </PreBuildEvent>
     <PreBuildEvent>
-      <Message>Amalgamate the templates.</Message>
+      <Message>Create the amalgamation from the templates.</Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
