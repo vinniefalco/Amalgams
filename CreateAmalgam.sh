@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # NOTE: The initial working directory must be
 #       in the same location as the script
