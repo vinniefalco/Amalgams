@@ -10,7 +10,7 @@ Amalgamate $OPTS templates/juce_audio_basics_amalgam_template.h $DEST/juce_audio
 Amalgamate $OPTS templates/juce_audio_devices_amalgam_template.h $DEST/juce_audio_devices_amalgam.h
 Amalgamate $OPTS templates/juce_audio_formats_amalgam_template.h $DEST/juce_audio_formats_amalgam.h
 Amalgamate $OPTS templates/juce_audio_processors_amalgam_template.h $DEST/juce_audio_processors_amalgam.h
-Amalgamate $OPTS templates/juce_audio_utils_amalgam_template.h $DEST/juce_audio_utilsi_amalgam.h
+Amalgamate $OPTS templates/juce_audio_utils_amalgam_template.h $DEST/juce_audio_utils_amalgam.h
 Amalgamate $OPTS templates/juce_core_amalgam_template.h $DEST/juce_core_amalgam.h
 Amalgamate $OPTS templates/juce_cryptography_amalgam_template.h $DEST/juce_cryptography_amalgam.h
 Amalgamate $OPTS templates/juce_data_structures_amalgam_template.h $DEST/juce_data_structures_amalgam.h
