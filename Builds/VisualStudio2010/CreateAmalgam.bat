@@ -1,3 +1,3 @@
 @ECHO OFF
 CD ..\..
-sh ./CreateAmalgam.sh
+bash ./CreateAmalgam.sh
