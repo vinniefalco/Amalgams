@@ -240,5 +240,6 @@
       <Filter>JUCEAmalgam README</Filter>
     </None>
     <None Include="..\..\README.md" />
+    <None Include="..\..\CreateAmalgam.sh" />
   </ItemGroup>
 </Project>

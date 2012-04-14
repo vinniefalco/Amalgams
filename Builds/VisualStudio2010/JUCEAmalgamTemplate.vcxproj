@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\CreateAmalgam.sh" />
     <None Include="..\..\JUCEAmalgam\include\juce_audio_basics_amalgam.mm" />
     <None Include="..\..\JUCEAmalgam\include\juce_audio_devices_amalgam.mm" />
     <None Include="..\..\JUCEAmalgam\include\juce_audio_formats_amalgam.mm" />
@@ -159,7 +160,8 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>
@@ -177,11 +179,17 @@
     </Link>
     <PreBuildEvent>
       <Command>$(ProjectDir)CreateAmalgam.bat</Command>
-      <Message>Create the amalgamation from the templates.</Message>
+      <Message>Creating the amalgamation from the templates.</Message>
     </PreBuildEvent>
     <Lib>
       <AdditionalOptions>/ignore:4006,4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -206,11 +214,19 @@
       <Command>$(ProjectDir)CreateAmalgam.bat</Command>
     </PreBuildEvent>
     <PreBuildEvent>
-      <Message>Create the amalgamation from the templates.</Message>
+      <Message>Creating the amalgamation from the templates.</Message>
     </PreBuildEvent>
     <Lib>
       <AdditionalOptions>/ignore:4006,4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Message>
+      </Message>
+    </CustomBuildStep>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
