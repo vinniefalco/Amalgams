@@ -1,6 +1,6 @@
 @ECHO OFF
 SET SRCDIR=..\..\JUCE
-SET DESTDIR=..\..\JuceAmalgam\include
+SET DESTDIR=..\..\JUCEAmalgam\include
 SET OPTIONS=-i %SRCDIR% -w "*.c;*.cpp;*.h;*.hpp;*.m;*.mm" 
 
 Amalgamate %OPTIONS% ..\..\templates\juce_audio_basics_amalgam_template.h %DESTDIR%\juce_audio_basics_amalgam.h

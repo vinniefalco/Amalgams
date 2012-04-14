@@ -2,9 +2,9 @@
 
 Source templates for building the [JUCE Amalgamation][1].
 
-This contains the templates and script used to build the [JUCE library][2] in
+This contains the templates and script used to build the [JUCE Library][2] in
 amalgamated form. This is useful if you want to create it yourself. For example,
-if you have applied patches to Juce.
+if you have applied patches to JUCE.
 
 To build the amalgamation:
 
@@ -15,18 +15,20 @@ To build the amalgamation:
 
 - Open your IDE-specific project file and build it.
 
-- The amalgamated output  will be placed in JuceAmalgam/include
+- The amalgamated output  will be placed in JUCEAmalgam/include
   (which you must create).
 
 The resulting amalgamation is platform independent, but projects for each
 platform are provided to make it easy to build and also to detect errors in
 specific IDEs.
 
-## Author
+## License
 
-This template was created by [Vinnie Falco][3].
+Copyright (C) 2012 [Vinnie Falco][4] <br>
+JUCE Amalgamation Template is provided under the terms of the [MIT license][5].
 
-[1]: https://github.com/vinniefalco/JuceAmalgam "JuceAmalgam"
+[1]: https://github.com/vinniefalco/JUCEAmalgam "JUCEAmalgam"
 [2]: http://rawmaterialsoftware.com/juce.php "JUCE"
-[3]: http://github.com/vinniefalco/Amalgamate "Amalgamate Tool"
+[3]: https://github.com/vinniefalco/Amalgamate "Amalgamate Tool"
 [4]: http://vinniefalco.com "Vinnie Falco's Home Page"
+[5]: http://www.opensource.org/licenses/MIT "MIT License"
