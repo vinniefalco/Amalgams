@@ -16,6 +16,9 @@
     <Filter Include="JUCEAmalgam README">
       <UniqueIdentifier>{464f8283-aaf9-4c9f-b88f-17014c8fd3ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Templates\include">
+      <UniqueIdentifier>{01066609-a42c-4186-8e1e-50f5357dd76d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\templates\juce_audio_basics_amalgam_template.cpp">
@@ -104,48 +107,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\templates\juce_audio_basics_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_audio_devices_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_audio_formats_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_audio_processors_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_audio_utils_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_core_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_cryptography_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_data_structures_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_events_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_graphics_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_gui_basics_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_gui_extra_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_opengl_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\templates\juce_video_amalgam_template.h">
-      <Filter>Templates</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\JUCEAmalgam\include\juce_data_structures_amalgam.h">
       <Filter>JUCEAmalgam Library Headers</Filter>
     </ClInclude>
@@ -187,6 +148,48 @@
     </ClInclude>
     <ClInclude Include="..\..\JUCEAmalgam\include\juce_cryptography_amalgam.h">
       <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_basics_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_devices_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_formats_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_processors_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_utils_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_core_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_cryptography_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_data_structures_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_events_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_graphics_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_gui_basics_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_gui_extra_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_opengl_amalgam_template.h">
+      <Filter>Templates\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_video_amalgam_template.h">
+      <Filter>Templates\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
