@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="JUCEAmalgam Library Code">
+      <UniqueIdentifier>{11d0c752-40da-4f2e-a8a0-4d6e0ea9e9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{b27b441b-316f-40f7-97ad-27901c46e6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCEAmalgam Library Headers">
+      <UniqueIdentifier>{33b82a8a-48ff-4f5f-ae1c-6ee1ee0c2f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCEAmalgam Library Code %28Mac%29">
+      <UniqueIdentifier>{7f343352-64c0-48eb-b54a-846a37bd5fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCEAmalgam README">
+      <UniqueIdentifier>{464f8283-aaf9-4c9f-b88f-17014c8fd3ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\templates\juce_audio_basics_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_audio_devices_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_audio_formats_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_audio_processors_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_audio_utils_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_core_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_cryptography_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_data_structures_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_events_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_graphics_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_gui_basics_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_gui_extra_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_opengl_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\juce_video_amalgam_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_basics_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_devices_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_formats_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_processors_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_utils_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_core_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_cryptography_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_data_structures_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_events_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_graphics_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_gui_basics_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_gui_extra_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_opengl_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_video_amalgam.cpp">
+      <Filter>JUCEAmalgam Library Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\templates\juce_audio_basics_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_devices_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_formats_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_processors_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_audio_utils_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_core_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_cryptography_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_data_structures_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_events_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_graphics_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_gui_basics_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_gui_extra_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_opengl_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\juce_video_amalgam_template.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_data_structures_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_events_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_graphics_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_gui_basics_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_gui_extra_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_opengl_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_video_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_basics_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_devices_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_formats_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_processors_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_utils_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_core_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_cryptography_amalgam.h">
+      <Filter>JUCEAmalgam Library Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CreateAmalgam.bat" />
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_basics_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_devices_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_formats_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_processors_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_utils_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_core_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_cryptography_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_data_structures_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_events_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_graphics_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_gui_basics_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_gui_extra_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_opengl_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\include\juce_video_amalgam.mm">
+      <Filter>JUCEAmalgam Library Code %28Mac%29</Filter>
+    </None>
+    <None Include="..\..\JUCEAmalgam\README.md">
+      <Filter>JUCEAmalgam README</Filter>
+    </None>
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

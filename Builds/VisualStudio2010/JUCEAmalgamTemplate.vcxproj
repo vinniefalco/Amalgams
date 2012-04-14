@@ -11,39 +11,39 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\JuceAmalgam\include\juce_audio_basics_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_audio_devices_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_audio_formats_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_audio_processors_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_audio_utils_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_core_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_cryptography_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_data_structures_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_events_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_graphics_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_gui_basics_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_gui_extra_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_opengl_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\include\juce_video_amalgam.mm" />
-    <None Include="..\..\JuceAmalgam\README.md" />
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_basics_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_devices_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_formats_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_processors_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_audio_utils_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_core_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_cryptography_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_data_structures_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_events_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_graphics_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_gui_basics_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_gui_extra_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_opengl_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\include\juce_video_amalgam.mm" />
+    <None Include="..\..\JUCEAmalgam\README.md" />
     <None Include="..\..\README.md" />
     <None Include="CreateAmalgam.bat" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_audio_basics_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_audio_devices_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_audio_formats_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_audio_processors_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_audio_utils_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_core_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_cryptography_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_data_structures_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_events_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_graphics_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_gui_basics_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_gui_extra_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_opengl_amalgam.h" />
-    <ClInclude Include="..\..\JuceAmalgam\include\juce_video_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_basics_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_devices_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_formats_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_processors_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_audio_utils_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_core_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_cryptography_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_data_structures_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_events_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_graphics_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_gui_basics_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_gui_extra_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_opengl_amalgam.h" />
+    <ClInclude Include="..\..\JUCEAmalgam\include\juce_video_amalgam.h" />
     <ClInclude Include="..\..\templates\juce_audio_basics_amalgam_template.h" />
     <ClInclude Include="..\..\templates\juce_audio_devices_amalgam_template.h" />
     <ClInclude Include="..\..\templates\juce_audio_formats_amalgam_template.h" />
@@ -60,20 +60,20 @@
     <ClInclude Include="..\..\templates\juce_video_amalgam_template.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_audio_basics_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_audio_devices_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_audio_formats_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_audio_processors_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_audio_utils_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_core_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_cryptography_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_data_structures_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_events_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_graphics_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_gui_basics_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_gui_extra_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_opengl_amalgam.cpp" />
-    <ClCompile Include="..\..\JuceAmalgam\include\juce_video_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_basics_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_devices_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_formats_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_processors_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_audio_utils_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_core_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_cryptography_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_data_structures_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_events_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_graphics_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_gui_basics_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_gui_extra_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_opengl_amalgam.cpp" />
+    <ClCompile Include="..\..\JUCEAmalgam\include\juce_video_amalgam.cpp" />
     <ClCompile Include="..\..\templates\juce_audio_basics_amalgam_template.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -134,7 +134,8 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2148A61D-5C84-4C87-AC0C-C0114AAD57D1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>JuceAmalgam</RootNamespace>
+    <RootNamespace>JUCEAmalgam</RootNamespace>
+    <ProjectName>JuceAmalgamTemplate</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
