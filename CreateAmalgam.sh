@@ -4,7 +4,7 @@
 #       in the same location as the script
 
 DEST=JUCEAmalgam/include
-OPTS='-i JUCE -w '\''*.c;*.cpp;*.h;*.hpp;*.m;*.mm'\'
+OPTS='-i JUCE -w "*.c;*.cpp;*.h;*.hpp;*.m;*.mm"'
 
 Amalgamate $OPTS templates/juce_audio_basics_amalgam_template.h $DEST/juce_audio_basics_amalgam.h
 Amalgamate $OPTS templates/juce_audio_devices_amalgam_template.h $DEST/juce_audio_devices_amalgam.h
