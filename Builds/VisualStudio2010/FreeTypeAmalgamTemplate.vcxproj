@@ -57,6 +57,7 @@
       </AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
+      <WarningLevel>Level4</WarningLevel>
     </ClCompile>
     <PreBuildEvent>
       <Command>$(ProjectDir)CreateAmalgam.bat</Command>
@@ -74,6 +75,7 @@
       </AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
+      <WarningLevel>Level4</WarningLevel>
     </ClCompile>
     <PreBuildEvent>
       <Command>$(ProjectDir)CreateAmalgam.bat</Command>
