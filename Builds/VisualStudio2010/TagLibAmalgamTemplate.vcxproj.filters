@@ -20,10 +20,16 @@
     <ClCompile Include="..\..\templates\TagLibAmalgamTemplate.cpp">
       <Filter>Templates</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\TagLibAmalgam\TagLibAmalgam.cpp">
+      <Filter>TagLibAmalgam</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\templates\TagLibAmalgamTemplate.h">
       <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TagLibAmalgam\TagLibAmalgam.h">
+      <Filter>TagLibAmalgam</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

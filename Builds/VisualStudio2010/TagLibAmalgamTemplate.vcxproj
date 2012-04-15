@@ -17,12 +17,14 @@
     <None Include="CreateAmalgam.bat" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\TagLibAmalgam\TagLibAmalgam.cpp" />
     <ClCompile Include="..\..\templates\TagLibAmalgamTemplate.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\Taglib\taglib;..\..\Taglib\taglib\toolkit;..\..\Taglib\taglib\asf;..\..\Taglib\taglib\mpeg;..\..\Taglib\taglib\ogg;..\..\Taglib\taglib\ogg\flac;..\..\Taglib\taglib\flac;..\..\Taglib\taglib\mpc;..\..\Taglib\taglib\mp4;..\..\Taglib\taglib\ogg\vorbis;..\..\Taglib\taglib\ogg\speex;..\..\Taglib\taglib\mpeg\id3v2;..\..\Taglib\taglib\mpeg\id3v2\frames;..\..\Taglib\taglib\mpeg\id3v1;..\..\Taglib\taglib\ape;..\..\Taglib\taglib\wavpack;..\..\Taglib\taglib\trueaudio;..\..\Taglib\taglib\riff;..\..\Taglib\taglib\riff\aiff;..\..\Taglib\taglib\riff\wav;..\..\Taglib\taglib\mod;..\..\Taglib\taglib\s3m;..\..\Taglib\taglib\it;..\..\Taglib\taglib\xm</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\Taglib\taglib;..\..\Taglib\taglib\toolkit;..\..\Taglib\taglib\asf;..\..\Taglib\taglib\mpeg;..\..\Taglib\taglib\ogg;..\..\Taglib\taglib\ogg\flac;..\..\Taglib\taglib\flac;..\..\Taglib\taglib\mpc;..\..\Taglib\taglib\mp4;..\..\Taglib\taglib\ogg\vorbis;..\..\Taglib\taglib\ogg\speex;..\..\Taglib\taglib\mpeg\id3v2;..\..\Taglib\taglib\mpeg\id3v2\frames;..\..\Taglib\taglib\mpeg\id3v1;..\..\Taglib\taglib\ape;..\..\Taglib\taglib\wavpack;..\..\Taglib\taglib\trueaudio;..\..\Taglib\taglib\riff;..\..\Taglib\taglib\riff\aiff;..\..\Taglib\taglib\riff\wav;..\..\Taglib\taglib\mod;..\..\Taglib\taglib\s3m;..\..\Taglib\taglib\it;..\..\Taglib\taglib\xm</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\TagLibAmalgam\TagLibAmalgam.h" />
     <ClInclude Include="..\..\templates\TagLibAmalgamTemplate.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -57,7 +59,7 @@
     <ClCompile>
       <PrecompiledHeader>
       </PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -74,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
