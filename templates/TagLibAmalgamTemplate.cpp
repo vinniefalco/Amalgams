@@ -6,9 +6,12 @@
 
 // disable warnings about unsafe standard library calls
 #ifdef _MSC_VER
+#pragma push_macro ("_CRT_SECURE_NO_WARNINGS")
 #ifndef _CRT_SECURE_NO_WARNINGS
 #define _CRT_SECURE_NO_WARNINGS
 #endif
+#pragma warning (push)
+#pragma warning (disable: 4996) // deprecated POSIX names
 #endif
 
 //#include "TagLibConfig.h"
@@ -130,3 +133,8 @@
 #include "toolkit/tfilestream.cpp"
 #include "toolkit/tdebug.cpp"
 #include "toolkit/unicode.cpp"
+
+#ifdef _MSC_VER
+#pragma warning (pop)
+#pragma pop_macro ("_CRT_SECURE_NO_WARNINGS")
+#endif
