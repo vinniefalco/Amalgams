@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TagLibAmalgam">
+      <UniqueIdentifier>{af7ed05d-350e-429f-b73b-7d71e408b364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{80956391-bcaf-4114-81d0-b10dc4c0ea0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\CreateAmalgam.sh" />
+    <None Include="..\..\README.md" />
+    <None Include="CreateAmalgam.bat" />
+    <None Include="..\..\TagLibAmalgam\README.md">
+      <Filter>TagLibAmalgam</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\templates\TagLibAmalgamTemplate.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\templates\TagLibAmalgamTemplate.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
