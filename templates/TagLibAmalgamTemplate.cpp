@@ -35,6 +35,11 @@
 #pragma warning (disable: 4996) // deprecated POSIX names
 #endif
 
+// These wrap taglib .cpp files with a namespace to prevent a flood of
+// compilation errors caused by promiscuous usage of "using" directives.
+#define TAGLIB_BEGIN_SOURCE namespace TagLib {
+#define TAGLIB_END_SOURCE }
+
 //#include "TagLibConfig.h"
 
 #include "toolkit/tstring.cpp"
@@ -45,9 +50,7 @@
 #include "fileref.cpp"
 #include "audioproperties.cpp"
 
-// these two don't compile unless they come early
-#include "mp4/mp4atom.cpp"
-#include "ape/apetag.cpp"
+//#include "mp4/mp4atom.cpp"
 
 #include "mpeg/mpegfile.cpp"
 #include "mpeg/mpegproperties.cpp"
@@ -97,13 +100,13 @@
 #include "mpc/mpcproperties.cpp"
 
 #include "mp4/mp4file.cpp"
-//#include "mp4/mp4atom.cpp"
+#include "mp4/mp4atom.cpp" // Doesn't compile unless it comes early
 #include "mp4/mp4tag.cpp"
 #include "mp4/mp4item.cpp"
 #include "mp4/mp4properties.cpp"
 #include "mp4/mp4coverart.cpp"
 
-//#include "ape/apetag.cpp"
+#include "ape/apetag.cpp"
 #include "ape/apefooter.cpp"
 #include "ape/apeitem.cpp"
 #include "ape/apefile.cpp"
