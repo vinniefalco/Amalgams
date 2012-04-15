@@ -36,30 +36,3 @@ Amalgamate "${OPTS[@]}" templates/TagLibAmalgamTemplate.cpp TagLibAmalgam/TagLib
 
 cd TagLib
 git log --date=short --format=format:'%H %ad %s' > ../TagLibAmalgam/COMMITLOG
-
-
-
-..\..\Taglib\taglib;
-..\..\Taglib\taglib\toolkit;
-..\..\Taglib\taglib\asf;
-..\..\Taglib\taglib\mpeg;
-..\..\Taglib\taglib\ogg;
-..\..\Taglib\taglib\ogg\flac;
-..\..\Taglib\taglib\flac;
-..\..\Taglib\taglib\mpc;
-..\..\Taglib\taglib\mp4;
-..\..\Taglib\taglib\ogg\vorbis;
-..\..\Taglib\taglib\ogg\speex;
-..\..\Taglib\taglib\mpeg\id3v2;
-..\..\Taglib\taglib\mpeg\id3v2\frames;
-..\..\Taglib\taglib\mpeg\id3v1;
-..\..\Taglib\taglib\ape;
-..\..\Taglib\taglib\wavpack;
-..\..\Taglib\taglib\trueaudio;
-..\..\Taglib\taglib\riff;
-..\..\Taglib\taglib\riff\aiff;
-..\..\Taglib\taglib\riff\wav;
-..\..\Taglib\taglib\mod;
-..\..\Taglib\taglib\s3m;
-..\..\Taglib\taglib\it;
-..\..\Taglib\taglib\xm
