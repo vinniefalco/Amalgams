@@ -39,4 +39,6 @@
 /*@remap "juce_video.h"            "juce_video_amalgam.h" */
 
 #define JUCE_AMALGAMATED_INCLUDE 1
+#if !defined(__APPLE__) || defined(__OBJC__)
 #include "modules/juce_events/juce_events.cpp"
+#endif
