@@ -1,4 +1,4 @@
-# Amalgamation templates
+# Amalgamate Templates
 
 These templates allow you to build the following amalgamations:
 
