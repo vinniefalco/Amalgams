@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\CreateAmalgam.sh" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\TagLibAmalgam\README.md" />
+    <None Include="CreateAmalgam.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TagLibAmalgam\TagLibAmalgam.cpp" />
+    <ClCompile Include="..\..\templates\TagLibAmalgamTemplate.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\Taglib\taglib;..\..\Taglib\taglib\toolkit;..\..\Taglib\taglib\asf;..\..\Taglib\taglib\mpeg;..\..\Taglib\taglib\ogg;..\..\Taglib\taglib\ogg\flac;..\..\Taglib\taglib\flac;..\..\Taglib\taglib\mpc;..\..\Taglib\taglib\mp4;..\..\Taglib\taglib\ogg\vorbis;..\..\Taglib\taglib\ogg\speex;..\..\Taglib\taglib\mpeg\id3v2;..\..\Taglib\taglib\mpeg\id3v2\frames;..\..\Taglib\taglib\mpeg\id3v1;..\..\Taglib\taglib\ape;..\..\Taglib\taglib\wavpack;..\..\Taglib\taglib\trueaudio;..\..\Taglib\taglib\riff;..\..\Taglib\taglib\riff\aiff;..\..\Taglib\taglib\riff\wav;..\..\Taglib\taglib\mod;..\..\Taglib\taglib\s3m;..\..\Taglib\taglib\it;..\..\Taglib\taglib\xm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\Taglib\taglib;..\..\Taglib\taglib\toolkit;..\..\Taglib\taglib\asf;..\..\Taglib\taglib\mpeg;..\..\Taglib\taglib\ogg;..\..\Taglib\taglib\ogg\flac;..\..\Taglib\taglib\flac;..\..\Taglib\taglib\mpc;..\..\Taglib\taglib\mp4;..\..\Taglib\taglib\ogg\vorbis;..\..\Taglib\taglib\ogg\speex;..\..\Taglib\taglib\mpeg\id3v2;..\..\Taglib\taglib\mpeg\id3v2\frames;..\..\Taglib\taglib\mpeg\id3v1;..\..\Taglib\taglib\ape;..\..\Taglib\taglib\wavpack;..\..\Taglib\taglib\trueaudio;..\..\Taglib\taglib\riff;..\..\Taglib\taglib\riff\aiff;..\..\Taglib\taglib\riff\wav;..\..\Taglib\taglib\mod;..\..\Taglib\taglib\s3m;..\..\Taglib\taglib\it;..\..\Taglib\taglib\xm</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TagLibAmalgam\TagLibAmalgam.h" />
+    <ClInclude Include="..\..\templates\TagLibAmalgamTemplate.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D4C9FD3-7B96-4022-97A3-9E38275426FF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>JuceAmalgam</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PreBuildEvent>
+      <Command>$(ProjectDir)CreateAmalgam.bat</Command>
+      <Message>Creating the amalgamation from the templates.</Message>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>/ignore:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PreBuildEvent>
+      <Command>$(ProjectDir)CreateAmalgam.bat</Command>
+      <Message>Creating the amalgamation from the templates.</Message>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>/ignore:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
