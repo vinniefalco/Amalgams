@@ -3,7 +3,7 @@
 These templates allow you to build the following amalgamations:
 
 - [FreeType Amalgamation][1] based on the [FreeType Library][2]
-- [JUCE Amalgamation][2] based on the [JUCE Library][4]
+- [JUCE Amalgamation][3] based on the [JUCE Library][4]
 - [TagLib Amalgamation][5] based on [TagLib][6]
 
 To build an amalgamation:
