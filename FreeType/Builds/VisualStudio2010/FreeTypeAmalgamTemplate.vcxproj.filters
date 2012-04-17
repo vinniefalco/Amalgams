@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FreeTypeAmalgam">
+      <UniqueIdentifier>{8813338e-f48d-4379-bb9c-ac62bc38f87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{577ef701-e837-4449-9db6-d9ad72a36993}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CreateAmalgam.bat" />
+    <None Include="..\..\FreeTypeAmalgam\README.md">
+      <Filter>FreeTypeAmalgam</Filter>
+    </None>
+    <None Include="..\..\CreateAmalgam.sh" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\FreeTypeAmalgam\FreeTypeAmalgam.c">
+      <Filter>FreeTypeAmalgam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\templates\FreeTypeAmalgamTemplate.c">
+      <Filter>Templates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\FreeTypeAmalgam\FreeTypeAmalgam.h">
+      <Filter>FreeTypeAmalgam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\FreeTypeAmalgamTemplate.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
