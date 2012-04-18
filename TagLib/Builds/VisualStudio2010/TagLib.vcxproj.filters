@@ -331,6 +331,9 @@
     <ClCompile Include="..\..\taglib\taglib\xm\xmproperties.cpp">
       <Filter>xm</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\TagLib\taglib\toolkit\tpropertymap.cpp">
+      <Filter>toolkit</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\taglib\taglib\audioproperties.h" />
@@ -603,6 +606,9 @@
     </ClInclude>
     <ClInclude Include="..\..\taglib\taglib\xm\xmfile.h">
       <Filter>xm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TagLib\taglib\toolkit\tpropertymap.h">
+      <Filter>toolkit</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

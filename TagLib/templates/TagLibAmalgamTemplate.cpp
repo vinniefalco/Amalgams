@@ -42,6 +42,7 @@
 
 //#include "TagLibConfig.h"
 
+#include "toolkit/tpropertymap.cpp"
 #include "toolkit/tstring.cpp"
 #include "toolkit/tfile.cpp"
 

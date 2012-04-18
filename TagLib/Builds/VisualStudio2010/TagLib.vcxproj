@@ -91,6 +91,7 @@
     <ClCompile Include="..\..\taglib\taglib\toolkit\tfile.cpp" />
     <ClCompile Include="..\..\taglib\taglib\toolkit\tfilestream.cpp" />
     <ClCompile Include="..\..\taglib\taglib\toolkit\tiostream.cpp" />
+    <ClCompile Include="..\..\TagLib\taglib\toolkit\tpropertymap.cpp" />
     <ClCompile Include="..\..\taglib\taglib\toolkit\tstring.cpp" />
     <ClCompile Include="..\..\taglib\taglib\toolkit\tstringlist.cpp" />
     <ClCompile Include="..\..\taglib\taglib\toolkit\unicode.cpp" />
@@ -186,6 +187,7 @@
     <ClInclude Include="..\..\taglib\taglib\toolkit\tiostream.h" />
     <ClInclude Include="..\..\taglib\taglib\toolkit\tlist.h" />
     <ClInclude Include="..\..\taglib\taglib\toolkit\tmap.h" />
+    <ClInclude Include="..\..\TagLib\taglib\toolkit\tpropertymap.h" />
     <ClInclude Include="..\..\taglib\taglib\toolkit\tstring.h" />
     <ClInclude Include="..\..\taglib\taglib\toolkit\tstringlist.h" />
     <ClInclude Include="..\..\taglib\taglib\toolkit\unicode.h" />
