@@ -35,11 +35,6 @@
 #pragma warning (disable: 4996) // deprecated POSIX names
 #endif
 
-// These wrap taglib .cpp files with a namespace to prevent a flood of
-// compilation errors caused by promiscuous usage of "using" directives.
-#define TAGLIB_BEGIN_SOURCE namespace TagLib {
-#define TAGLIB_END_SOURCE }
-
 //#include "TagLibConfig.h"
 
 #include "toolkit/tpropertymap.cpp"
