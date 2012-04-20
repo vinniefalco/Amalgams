@@ -22,8 +22,9 @@
 #define TAGLIB_NO_CONFIG
 #define MAKE_TAGLIB_LIB
 #define TAGLIB_STATIC
-#define WITH_ASF
-#define WITH_MP4
+
+/*@remap "TagLibAmalgamTemplatePublicHeaders.h" "TagLibAmalgam.h" */
+#include "TagLibAmalgamTemplateHeaderGlue.h"
 
 // disable warnings about unsafe standard library calls
 #ifdef _MSC_VER
@@ -45,8 +46,6 @@
 #include "tagunion.cpp"
 #include "fileref.cpp"
 #include "audioproperties.cpp"
-
-//#include "mp4/mp4atom.cpp"
 
 #include "mpeg/mpegfile.cpp"
 #include "mpeg/mpegproperties.cpp"
@@ -96,7 +95,7 @@
 #include "mpc/mpcproperties.cpp"
 
 #include "mp4/mp4file.cpp"
-#include "mp4/mp4atom.cpp" // Doesn't compile unless it comes early
+#include "mp4/mp4atom.cpp"
 #include "mp4/mp4tag.cpp"
 #include "mp4/mp4item.cpp"
 #include "mp4/mp4properties.cpp"

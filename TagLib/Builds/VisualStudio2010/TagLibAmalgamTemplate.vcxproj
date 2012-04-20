@@ -26,6 +26,8 @@
   <ItemGroup>
     <ClInclude Include="..\..\TagLibAmalgam\TagLibAmalgam.h" />
     <ClInclude Include="..\..\templates\TagLibAmalgamTemplate.h" />
+    <ClInclude Include="..\..\templates\TagLibAmalgamTemplateHeaderGlue.h" />
+    <ClInclude Include="..\..\templates\TagLibAmalgamTemplatePublicHeaders.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1D4C9FD3-7B96-4022-97A3-9E38275426FF}</ProjectGuid>

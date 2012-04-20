@@ -31,5 +31,11 @@
     <ClInclude Include="..\..\TagLibAmalgam\TagLibAmalgam.h">
       <Filter>TagLibAmalgam</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\templates\TagLibAmalgamTemplateHeaderGlue.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates\TagLibAmalgamTemplatePublicHeaders.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

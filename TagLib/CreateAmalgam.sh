@@ -6,7 +6,8 @@
 SRC=Taglib/taglib
 
 OPTS=(
-  -i "Taglib/taglib" -w "*.c;*.cpp;*.h;*.hpp;*.tcc" -s
+  -w "*.c;*.cpp;*.h;*.hpp;*.tcc" -s
+  -i "Taglib/taglib"
   -i "Taglib/taglib/toolkit"
   -i "Taglib/taglib/asf"
   -i "Taglib/taglib/mpeg"
