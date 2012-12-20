@@ -95,6 +95,7 @@ OPTS=(
   -d 'FT_SERVICE_POSTSCRIPT_CMAPS_H=<freetype/internal/services/svpscmap.h>'
   -d 'FT_SERVICE_POSTSCRIPT_INFO_H=<freetype/internal/services/svpsinfo.h>'
   -d 'FT_SERVICE_POSTSCRIPT_NAME_H=<freetype/internal/services/svpostnm.h>'
+  -d 'FT_SERVICE_PROPERTIES_H=<freetype/internal/services/svprop.h>'
   -d 'FT_SERVICE_SFNT_H=<freetype/internal/services/svsfnt.h>'
   -d 'FT_SERVICE_TRUETYPE_ENGINE_H=<freetype/internal/services/svtteng.h>'
   -d 'FT_SERVICE_TT_CMAP_H=<freetype/internal/services/svttcmap.h>'
@@ -102,6 +103,7 @@ OPTS=(
   -d 'FT_SERVICE_XFREE86_NAME_H=<freetype/internal/services/svxf86nm.h>'
   -d 'FT_SERVICE_TRUETYPE_GLYF_H=<freetype/internal/services/svttglyf.h>'
   -d 'FT_ERRORS_H=<freetype/fterrors.h>'
+  -d 'FT_AUTOHINTER_H=<freetype/ftautoh.h>'
   -p FT_FREETYPE_H
   -f FT_ERRORS_H)
 

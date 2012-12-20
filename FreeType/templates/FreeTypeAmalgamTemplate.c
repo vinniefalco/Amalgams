@@ -49,6 +49,7 @@
 #include FT_SERVICE_TT_CMAP_H
 #include FT_SERVICE_CID_H
 #include FT_SERVICE_TRUETYPE_GLYF_H
+#include FT_SERVICE_PROPERTIES_H
 
 /*
  * Sources
