@@ -5,7 +5,6 @@
 
 SRC=freetype
 DEST=FreeTypeAmalgam
-
 OPTS=(
   -i "$SRC" -i "${SRC}/include" -i "${SRC}/src/gzip" -s -w '*.c;*.h'
   -d 'FT_CONFIG_CONFIG_H=<freetype/config/ftconfig.h>'
@@ -62,6 +61,7 @@ OPTS=(
   -d 'FT_CACHE_INTERNAL_GLYPH_H=<freetype/ftcache.h>'
   -d 'FT_CACHE_INTERNAL_IMAGE_H=<freetype/ftcache.h>'
   -d 'FT_CACHE_INTERNAL_SBITS_H=<freetype/ftcache.h>'
+  -d 'FT_CFF_DRIVER_H=<freetype/ftcffdrv.h>'
   -d 'FT_INCREMENTAL_H=<freetype/ftincrem.h>'
   -d 'FT_TRUETYPE_UNPATENTED_H=<freetype/ttunpat.h>'
   -d 'FT_INTERNAL_INTERNAL_H=<freetype/internal/internal.h>'
